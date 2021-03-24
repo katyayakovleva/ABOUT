@@ -17,7 +17,12 @@ a{
     text-decoration: none;
 }
 .front_foto{
+
+    max-width: 1600px;
     margin-top: 50px;
+
+    max-height:500px;
+    padding: 0;
 }
 .section_title{
 
@@ -107,4 +112,16 @@ section{
     margin-right: auto;
 }
 
+@media (max-width: 990px) {
+
+}
+@media (max-width: 710px) {
+
+}
+@media (max-width: 440px) {
+
+}
+@media (min-width: 440px) {
+
+}
 
