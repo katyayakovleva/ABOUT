@@ -63,7 +63,6 @@ body{
 }
 .header_menu{
     display: inline-flex;
-    flex-direction: column;
 }
 .text_menu{
 
@@ -170,8 +169,50 @@ body{
 }
 
 @media (max-width: 990px) {
+    .text_menu{
+        display: none !important;
+    }
+    .top_ua_and_uah li{
+        margin-right: 11px;
+    }
+    .top_ua_and_uah{
+        margin-right: 33px;
+    }
     .header_menu{
         margin-top: 32px;
+    }
+    .contact{
+        display: block;
+        text-align: center;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding-left: 0;
+        margin-top: 38px;
+    }
+    .call_us{
+        padding-left: 0;
+        text-align: center;
+
+    }
+    .contact_first_string{
+        margin-top: 12px;
+    }
+    .telegram{
+        display: none !important;
+    }
+    .contact_info{
+        margin-top: 4px;
+    }
+    .work{
+        margin-top: 10px;
+    }
+    .soc_media{
+        margin-top: 10px;
+    }
+    .soc_media_link{
+        margin-top: 7px;
+        display: inline-flex;
     }
     .name{
         font-size: 36px;
@@ -183,42 +224,40 @@ body{
         margin-top: auto;
 
     }
-    .soc_media {
-        display: none !important;
-    }
-    .text_menu{
-        display: none !important;
-    }
     .icons_menu{
-        margin-top: auto;
-        margin-right: 0px;
+        margin-top: -65px;
+        margin-right: 0;
         padding-right: 27px;
     }
-    .inst_foto {
-             display: none !important;
-
+    .inst_foto{
+        margin-top: 25px;
     }
+    .soc_media_icon{
+        display: none !important;
+    }
+    .inst_icon{
+        margin-right: 27px;
+    }
+    .facebook_icon{
+        margin-top: 7.5px;
+    }
+
+
 
 }
 @media (max-width: 710px) {
-    .work {
-        display: none !important;
-    }
+
     .soc_media {
         flex: 1.2;
     }
-    .instagram{
-        display: none !important;
-    }
+
 
 }
 @media (max-width: 440px) {
     .info {
         height: 210px;
     }
-    .instagram{
-        display: none !important;
-    }
+
 
 }
 @media (min-width: 440px) {
