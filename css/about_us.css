@@ -83,7 +83,15 @@ Img.displayed {
 .end{
     padding-top: 48px;
 }
-@media (max-width: 710px) {
+@media (max-width: 990px) {
+    .text1{
+        padding-top: 47px;
+    }
+    .title{
+
+        padding-top: 70px;
+
+    }
     .ubzats{
         padding-left: 74px;
         padding-right: 74px;

@@ -34,8 +34,10 @@ a{
     line-height: 35px;
 }
 .title_line{
-    padding-top: 5px;
+    padding-top: 2px;
+    width: 155px;
 }
+
 IMG.displayed {
     display: block;
     margin-left: auto;
@@ -77,6 +79,7 @@ section{
     color: #000000;
     padding-top: 8px;
     text-align: center;
+    margin-left: -30px;
 }
 .product_value{
 
@@ -86,6 +89,7 @@ section{
     line-height: 16px;
     text-align: center;
     color: #7E7E7E;
+    margin-left: -30px;
 }
 .see_more{
     width: 280px;
@@ -111,18 +115,51 @@ section{
     margin-left: auto;
     margin-right: auto;
 }
+@media (max-width: 1200px) {
+    .product4{
+        display: none !important;
+    }
 
+}
 @media (max-width: 990px) {
     .front_foto{
         padding-top: 45px;
     }
+    .product3{
+        display: none !important;
+    }
 
 }
 @media (max-width: 710px) {
-
+    .title_line{
+        width: 75px;
+    }
+    .product2{
+        display: none !important;
+    }
+    .container_section{
+        padding-top: 31px;
+    }
+    section{
+        margin-top: 50px;
+    }
+    .section_title{
+        font-size: 20px;
+    }
+    .see_more{
+        width: 127px;
+        height: 27px;
+        margin-top: 30px;
+    }
+    .see_more_text{
+        font-size: 14px;
+    }
 }
 @media (max-width: 440px) {
-
+    .section_title{
+        font-size: 14px;
+        line-height: 16px;
+    }
 }
 @media (min-width: 440px) {
 

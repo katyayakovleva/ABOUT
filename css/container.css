@@ -197,6 +197,12 @@ displayed {
     margin-left: auto;
     margin-right: auto;
 }
+@media (max-width: 1200px) {
+    .product3{
+        display: none !important;
+    }
+
+}
 @media (max-width: 990px) {
     .section_header{
         margin-top: 48px;
@@ -215,4 +221,22 @@ displayed {
         padding-right: 0;
         margin-left: auto;
     }
+    .products{
+        padding-top: 21px;
+    }
+    .product2{
+        display: none !important;
+    }
+    .product{
+        padding-top: 21px;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    .see_more{
+        display: none !important;
+    }
+
+}
+@media (max-width: 440px){
+
 }
