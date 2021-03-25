@@ -113,6 +113,9 @@ section{
 }
 
 @media (max-width: 990px) {
+    .front_foto{
+        padding-top: 45px;
+    }
 
 }
 @media (max-width: 710px) {
