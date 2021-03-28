@@ -9,94 +9,91 @@ body{
     font-family: 'Crimson Pro', serif;
     min-width: 320px;
 }
-.header-phone-number{
-    width: 173px;
-    height: 28px;
-    padding-left: 70px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 28px;
-    display: flex;
-    align-items: flex-end;
-    text-align: center;
-    margin: 0;
-
-    color: #7E7E7E;
-}
-.top_ua_and_uah{
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 21px;
-
-    display: flex;
-    align-items: center;
-    color: #7E7E7E;
-    margin-left: auto;
-    padding-right: 60px;
-
-}
-.top_ua_and_uah li{
-    margin-right: 26px;
+.header {
+    width: 100%;
 
 }
 .header_top{
-    /*width: 100%;*/
-    /*max-width: 1400px;*/
-    height: 30px;
+    height: 38px;
     background: #E0E0E0;
     display: flex;
-
 }
+.header-phone-number{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+
+    color: #7E7E7E;
+    margin-left: 155px;
+    padding-top: 3px;
+}
+.top_ua_and_uah{
+    margin-left: auto;
+    margin-right: 30px;
+    display: flex;
+}
+.ua{
+    margin-right: 19px;
+}
+.polygon{
+    align-items: center;
+}
+.line_header{
+    display: inline-flex;
+}
+.UA{
+    padding-top: 9px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #7E7E7E;
+}
+.UAH{
+    padding-top: 9px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #7E7E7E;
+}
+/*.header_bottom{*/
+/*    display: flex;*/
+
+/*}*/
+.header_bottom_nav{
+    display: flex;
+}
+
 .name{
-    font-family: 'IBM Plex Serif', serif;
-    font-size: 80px;
-    margin-top: 30px;
-    padding-left: 80px;
-    color: black;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 117px;
+    color: #000000;
+    margin-left: 150px;
+}
+.text_menu a{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+
+    margin-right: 70px;
+}
+.icons_menu a{
+    margin-right: 9px;
+
 }
 
 .menu{
-    position: absolute;
-    right: 0;
-    margin-top: 76px;
-    display: flex;
-}
-.header_menu{
-    display: inline-flex;
-}
-.text_menu{
-
+    margin-top: 65px;
     margin-left: auto;
-    margin-right: 0;
-    display: flex;
-
+    margin-right: 70px;
 }
-.text_menu li{
-    margin-right: 60px;
-}
-.text_menu li a{
-    text-decoration: none;
-    color: #000000;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 22px;
-    line-height: 29px;
-}
-.icons_menu{
-
-    display: flex;
-    padding-right: 80px;
-
-}
-.icons_menu div{
-    margin-right: 8px;
-}
-/*.icons{*/
-/*    width: 23px;*/
-/*    height: 23px;*/
-/*}*/
 footer{
 
     margin-top: 190px;
@@ -169,9 +166,6 @@ footer{
 .contact_info{
     margin-top: 15px;
 }
-.poligon{
-    margin-top: 16px;
-}
 
 @media (max-width: 990px) {
     footer{
@@ -181,17 +175,12 @@ footer{
     .footer{
         padding-bottom: 41px;
     }
-    .text_menu{
-        display: none !important;
-    }
-    .top_ua_and_uah li{
-        margin-right: 11px;
-    }
+
     .top_ua_and_uah{
-        margin-right: 33px;
+        padding-right: 33px;
     }
     .header_menu{
-        margin-top: 32px;
+        padding-top: 32px;
     }
     .contact{
         display: block;
@@ -226,21 +215,7 @@ footer{
         margin-top: 7px;
         display: inline-flex;
     }
-    .name{
-        font-size: 43px;
-        line-height: 44px;
-        position:absolute;
-        width:100%;
-        text-align:center;
-        padding-left: 0;
-        margin-top: auto;
 
-    }
-    .icons_menu{
-        margin-top: -65px;
-        margin-right: 0;
-        padding-right: 27px;
-    }
     .inst_foto{
         margin-top: 25px;
     }
@@ -253,16 +228,61 @@ footer{
     .facebook_icon{
         margin-top: 7px;
     }
+    .text_menu{
+        display: none !important;
+    }
 
 
-
+}
+@media (min-width: 711px) {
+    .menu_icon{
+        display: none !important;
+    }
 }
 @media (max-width: 710px) {
 
     .soc_media {
         flex: 1.2;
     }
+    .name{
+        font-size: 43px;
+        line-height: 44px;
+        position:absolute;
+        width:100%;
+        text-align:center;
+        margin-top: 32px;
+        margin-left: auto;
 
+    }
+    .menu_icon{
+        margin-left: 40px;
+        margin-top: 47px;
+        width: 15px;
+    }
+    .menu{
+        margin-top: 46px;
+        margin-right: 27px;
+    }
+    .header-phone-number{
+        font-size: 14px;
+        line-height: 16px;
+        margin-left: 40px;
+        padding-top: 8px;
+    }
+    .UA{
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .UAH{
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .top_ua_and_uah{
+        margin-right: 12px;
+    }
+    .header_top{
+        height: 30px;
+    }
 
 }
 @media (max-width: 440px) {
